@@ -1,0 +1,83 @@
+#menu li{
+    display: inline;
+    padding: 15px;
+    font-size: 20px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: brown;
+}
+
+#menu li a:hover{
+    color: chocolate;
+}
+
+.titulo{
+    text-align: center;
+    color: rgb(126, 43, 54);
+}
+
+.f40{
+    font-size: 40px;
+}
+
+.f30{
+    font-size: 30px;
+}
+
+.f20{
+    font-size: 20px;
+}
+
+.texto{
+    font-size: 20px;
+    text-align: justify;
+    color: gray;
+}
+
+.centro{
+    text-align: center;
+}
+
+.caixa{
+    font-size: 15px;
+    text-align: justify;
+    color: grey;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center; /*eixo horizontal*/
+    align-items: center; /* eixo vertical*/
+    border: 20px;
+    padding: 20px;
+}
+
+.container > div{
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    width: 500px;
+}
+
+.l1{
+    padding: 20px;
+}
+
+.image{
+    margin: 20px;
+    border-radius: 50%;
+    border: 5px solid rgb(126, 43, 54) ;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.img-social{
+    width: 50px;
+    height: 50px;
+    padding-right: 30px;
+}

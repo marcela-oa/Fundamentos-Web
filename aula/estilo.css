@@ -1,0 +1,37 @@
+/* css externo */
+.font-20{
+    font-size: 20px;
+    text-align: justify;
+    color: darkslategray;
+}
+
+.align-center{
+    text-align: center;
+}
+
+#color1{
+    color: darkgreen;
+    font-size: 50px;
+}
+
+#color2{
+    color: green;
+    font-size: 40px;
+}
+
+#color3{
+    color: darkolivegreen;
+    font-size: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: center; /*eixo horizontal*/
+    align-items: center; /* eixo vertical*/
+}
+
+.image{
+    margin: 20px;
+    border: 5px solid rgb(241, 152, 49) ;
+    padding: 20px;
+}

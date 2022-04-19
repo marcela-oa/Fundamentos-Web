@@ -4,48 +4,128 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="estilo.css">
+
     <title>Meu Perfil</title>
 </head>
 <body>
-    <ul>
-        <li>
-            <a href="index.html"> Home </a>
-        </li>
-        <li>
-            <a href="contato.html"> Contato </a>
-        </li>
-    </ul>
-    <h1> Sobre a Marcela </h1>
+    <nav>
+        <ul id="menu">
+            <li>
+                <a href="index.html"> Home </a>
+            </li>
+            <li>
+                <a href="contato.html"> Contato </a>
+             </li>
+        </ul>
+    </nav>    
 
-    <p>
-        Essa sou eu: 
-    </p>
-  
-    <img src="./assets/marcela.jpeg" alt="Foto da criadora desta página" width="370" height="500">
- 
-    <p>
-        Um dos meus hobbies é assistir filmes e principalmente musicais. CODA foi um dos últimos musicais que assisti e é simplesmente lindo.
-        Ele foi indicado a algumas categorias do Oscar 2022 e inclusive ganhou a categoria de melhor filme. 
-    </p>
-    <p>Aqui está a cena da interpretação da protagonista da música final, que ficou maravilhosa e emocionante: </p>
+    <header class="container"> 
 
-    <h2>Both sides now</h2>
+        <h1 class="titulo f40"> Oiee! Eu sou a Marcela </h1>
+            
+        <img class="image" src="./assets/desenho.jpg" alt="Foto da criadora desta página">
+    
+    </header>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/qlTEAXcKssg" 
-    title="YouTube video player" frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen></iframe>
+    <main>   
+        <section class="container">
+            
+            <p class="texto">
+                Para falar um pouquinho de mim, vou apresentar um pouquinho dos meus principais hobbies 😉
+            </p>
+               
+        </section>
 
-    <br><br>
+        <h3 class="titulo f30"> Cheerleading </h3>
 
-    <p>Um outro hobbie que amo é praticar esportes e principalmente o cheerleading. 
-        Um esporte em equipes onde exerço a posição de flyer e não tem explicação melhor de como funciona do que com imagens e vídeos: </p>
+        <section class="container">
+            <div>
+                <iframe width="200px" height="300px" src="./assets/stunt.mp4" 
+                title="stunt" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+            </div>
+            <div>
+                <p class="texto">
+                    Amo praticar esportes mas principalmente o cheerleading. Sou extremamente apaixonada por ele e aproveito muito do meu tempo livre treinando e fazendo amizades com outros atletas.
+                </p>
+                <p class="texto">
+                    Um dos elementos do cheer é o stunt que consiste na elevação de uma pessoa no ar, com diversos níveis de dificuldade. Eu exerço a posição de flyer dentro do stunt e não tem explicação melhor de como funciona do que com imagens e vídeos: 
+                </p>
+            </div>
+            <div>
+                <img src="./assets/cradle.jpeg" alt="Stunt com flyer em figura de Scale" width="250" height="300">
+            </div>
+        </section>
 
-    <iframe width="560" height="315" src="./assets/stunt.mp4" 
-    title="stunt" frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen></iframe>
+        <h3 class="titulo f30"> Filmes </h3>
 
-    <img src="./assets/scale.jpeg" alt="Stunt com flyer em figura de Scale" width="250" height="400">
+        <section class="container">
+            <div>
+                <p class="texto">
+                    Assistir filmes é um momento de relaxamento e diversão, seja sozinha ou acompanhada, em casa ou no ciname, é sempre uma boa experiência.
+                </p>
+                <p class="texto">
+                    Musicais, animações e ficção cientícas são minhas categorias favoritas. CODA foi um dos últimos musicais que assisti e é simplesmente lindo.
+                    Ele foi indicado a algumas categorias do Oscar 2022 e inclusive ganhou a categoria de melhor filme. 
+                </p>
+                <p class="texto">
+                    Vou deixar aqui ao lado a cena da interpretação da protagonista da música final "Both sides now", que ficou maravilhosa e emocionante. Com certeza uma versão incrível e que me fez assistir essa cena no replay por muito tempo.
+                </p>
+            </div>
+            <div>
+                <h4 class="titulo f20">Both sides now</h4>
+        
+                <iframe width="350" height="300" src="https://www.youtube.com/embed/qlTEAXcKssg" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+                </iframe>
+            </div>
+            <div>
+                <h4 class="titulo f20">Filmes favoritos:</h4>
+                <ul class="texto">
+                    <li>Capitão Fantástico</li>
+                    <li>Interstellar</li>
+                    <li>Enrolados</li>
+                    <li>Frozen</li>
+                    <li>Os miseráveis</li>
+                    <li>A Origem dos guardiões</li>
+                    <li>Begin again</li>
+                    <li>O rei do show</li>
+                    <li>Spirit: o corcel indomável</li>
+                    <li>Anastácia</li>
+                    <li>Gigantes de aço</li>
+                    <li>A princesa e o sapo</li>
+                    <li>Simplesmente acontece</li>
+                </ul>
+
+            </div>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer class="container"> 
+
+        <div class="container">
+            <a href="https://github.com/marcela-oa" target="_blank">
+                <img class="img-social" src="./assets/github.png" alt="Logo github">
+            </a>
+            <a href="https://www.linkedin.com/in/marcela-oliveira-2056551b7/" target="_blank">
+                <img class="img-social" src="./assets/linkedin.png" alt="">
+            </a>
+            <a href="https://www.instagram.com/mmarcela.oa/" target="_blank">
+                <img class="img-social" src="./assets/instagram.png" alt="">
+            </a>
+        </div>
+               
+        <p class="texto"> 
+            Marcela Oliveira &copy; 
+        </p>
+
+    </footer>
 </body>
 </html>
